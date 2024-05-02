@@ -1,0 +1,35 @@
+roject Description: Inventory Management System
+
+Introduction:
+The Inventory Management System is a Java-based application designed to facilitate the management of inventory for businesses or organizations. It provides functionalities for adding, removing, updating, and viewing product information stored in a PostgreSQL database.
+
+Features:
+
+Database Connectivity: The system connects to a PostgreSQL database to store and retrieve product information. It utilizes JDBC (Java Database Connectivity) to establish a connection with the database.
+Product Management: Users can perform various operations related to product management, including:
+Adding new products to the inventory.
+Deleting existing products from the inventory.
+Updating product information such as name, quantity, and price.
+Viewing a list of all products stored in the inventory.
+Exception Handling: The system incorporates robust exception handling mechanisms to gracefully handle errors and ensure smooth execution of operations.
+Technologies Used:
+
+Java: The core programming language used for developing the application.
+PostgreSQL: The relational database management system used for storing product information.
+JDBC (Java Database Connectivity): The API used for connecting Java applications with relational databases.
+IntelliJ IDEA (or any other Java IDE): The integrated development environment used for coding, testing, and debugging the application.
+Project Structure:
+
+InventoryManagementSystem.java: The main class containing the application's entry point and business logic for inventory management.
+DatabaseUtils.java: Utility class providing methods for connecting to the PostgreSQL database and executing SQL queries.
+Product.java: Class representing a product entity with attributes such as ID, name, quantity, and price.
+InventoryManagementSystemTest.java: JUnit test class for testing various functionalities of the Inventory Management System.
+Usage:
+
+Clone or download the project from the repository.
+Import the project into IntelliJ IDEA or any other Java IDE.
+Set up the PostgreSQL database and configure the database connection parameters in the project.
+Run the main class, InventoryManagementSystem.java, to launch the application.
+Use the console or UI (if implemented) to interact with the system and perform inventory management operations.
+Conclusion:
+The Inventory Management System provides a user-friendly interface for managing inventory efficiently. With its robust features and seamless integration with PostgreSQL, it streamlines inventory-related tasks and enhances organizational productivity.
